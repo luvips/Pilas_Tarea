@@ -34,7 +34,6 @@ public class GestorDeshacer {
         if (pilaRehacer.isEmpty()) {
             return;
         }
-
         Comando comando = pilaRehacer.pop();
         comando.ejecutar();
         pilaDeshacer.push(comando);
