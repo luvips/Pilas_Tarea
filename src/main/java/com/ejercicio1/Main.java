@@ -13,7 +13,7 @@ public class Main {
         Scanner scr = new Scanner(System.in);
         Navegacion nav= new Navegacion(urlInicial);
         System.out.println("Bienvenido a Google");
-        while (salida!=false) {
+        while (salida!=true) {
 
 
             System.out.println("\n¿Qué deseas hacer?");
